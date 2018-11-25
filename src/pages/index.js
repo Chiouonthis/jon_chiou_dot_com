@@ -6,13 +6,15 @@ import Image from '../components/image'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+        <Link to="/about">About me</Link>
+
+    <h1>I'm Jonathan Chiou</h1>
+    <p>I built this site to work on my front-end development skills.</p>
+    <p>I also wanted to try out a new tech stack and work with languages, frameworks, etc.
+      that I don't normally get to play with at work.</p>
     <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
