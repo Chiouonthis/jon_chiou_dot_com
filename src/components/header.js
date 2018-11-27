@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Menu from './menu'
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -31,12 +32,12 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-        <ul style={{ listStyle: `none`, float: `right` }}>
-          <ListLink to="/">Home</ListLink>
-          <ListLink to="/aboutme/">About Me</ListLink>
-          <ListLink to="/contact/">Contact</ListLink>
-        </ul>
+
       </h1>
+      <h2>
+      <Menu/>
+      </h2>
+
     </div>
   </div>
 )
