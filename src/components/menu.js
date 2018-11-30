@@ -15,11 +15,11 @@ class Menu extends Component {
       <ResponsiveMenu
         menuOpenButton={<div />}
         menuCloseButton={<div />}
-        changeMenuOn="500px"
+        changeMenuOn="300px"
         largeMenuClassName="large-menu-classname"
         smallMenuClassName="small-menu-classname"
         menu={
-          <ul style={{ listStyle: `none`, float: `right` }}>
+          <ul style={{ listStyle: `none`, float: `middle` }}>
               <ListLink to="/">Home</ListLink>
               <ListLink to="/aboutme/">About Me</ListLink>
               <ListLink to="/contact/">Contact</ListLink>

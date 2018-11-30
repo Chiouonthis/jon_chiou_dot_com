@@ -1,12 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Menu from './menu'
-
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
 
 const Header = ({ siteTitle }) => (
   <div
@@ -32,12 +25,8 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-
       </h1>
-      <h2>
-      <Menu/>
-      </h2>
-
+      
     </div>
   </div>
 )
