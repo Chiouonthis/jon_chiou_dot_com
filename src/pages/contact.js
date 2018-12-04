@@ -19,6 +19,10 @@ const Contact = () => (
     <ul>
       <li><a href="https://www.linkedin.com/in/jonathanchiou">LinkedIn</a></li>
       <li>@jonchiou on <a href="https://www.twitter.com/jonchiou">Twitter</a></li>
+      <li>@jonchiou on <a href="https://dev.to/jonchiou">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Jonathan's DEV Profile" height="30" width="30" />
+</a>
+</li>
     </ul>
   </Layout>
 )
