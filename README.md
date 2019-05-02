@@ -11,4 +11,5 @@ As well as improve:
 * Using git
 * Writing content with markdown
 
-Currently deploying with Surge.
+Currently deploying with Surge because I haven't had time/energy to point to a proper URL.
+[The site!](https://jonchiou.surge.sh/)
